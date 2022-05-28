@@ -26,7 +26,7 @@ void setup() {
   digitalWrite(12, LOW);
   digitalWrite(13, HIGH);
   st7302spi.begin();
-//  st7302spi.inversion_on();
+  st7302spi.inversion_on();
   
   String str[]={"你","好","B","站"};
   print_chinese(10, 10, str, 4);
