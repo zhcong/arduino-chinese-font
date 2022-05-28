@@ -1,5 +1,5 @@
-#include "ChineseFontBitMap.h"
-#include "font_bitmap.h"
+#include <ChineseFontBitMap.h>
+#include <font_bitmap.h>
 
 ChineseFontBitMap::ChineseFontBitMap() {
   _font_map = new SimpleMap<String, int>([](String & a, String & b) -> int {  if (a == b) return 0;  else if (a > b) return 1;  else return -1; });
