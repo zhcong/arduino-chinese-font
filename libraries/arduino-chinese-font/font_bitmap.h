@@ -1,5 +1,4 @@
 #include <SimpleMap.h>
-#include "config.h"
 
 #define _PIXEL_LEN 16
 #define _BYTE_LEN 32
